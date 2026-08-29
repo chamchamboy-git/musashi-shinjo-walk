@@ -3,6 +3,7 @@
 .map-walkway{position:absolute;left:80px;top:7px;width:24px;height:94px;background:#bca483;border-inline:1px solid #d7c3a8;z-index:1}
 .map-walkway-edumura{position:absolute;left:92px;top:113px;width:58px;height:13px;background:#bca483;border-block:1px solid #d7c3a8;z-index:1}.map-walkway-edumura:after{content:"";position:absolute;right:0;bottom:0;width:8px;height:55px;background:#bca483;border-inline:1px solid #d7c3a8}
 .map-walkway-lawson{position:absolute;left:13px;top:96px;width:45px;height:8px;border-radius:999px;background:#bca483;transform:rotate(12deg);transform-origin:left center;z-index:1}.map-walkway-lawson:after{content:"";position:absolute;left:42px;top:3px;width:39px;height:8px;border-radius:999px;background:#bca483;transform:rotate(7deg);transform-origin:left center}
+.map-road{position:absolute;height:8px;border-radius:999px;background:#454a4b;transform-origin:left center;z-index:2}.map-road-left{left:52px;top:104px;width:31px}.map-road-taxi{left:92px;top:103px;width:50px;transform:rotate(-57deg)}.map-road-koban{left:120px;top:57px;width:47px;transform:rotate(-31deg)}
 .map-apron{border:0!important}.map-transit{border:0!important;box-shadow:inset 0 0 0 1px #6f7474}
 .map-bus{background:radial-gradient(ellipse at center,#658d55 0 45%,#454a4b 48%)!important}.map-taxi{background:radial-gradient(ellipse at center,#658d55 0 43%,#454a4b 47%)!important}
 
