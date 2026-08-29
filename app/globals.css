@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+html,body,.game-shell,.game-shell *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+
 .map-walkway{position:absolute;left:80px;top:7px;width:24px;height:94px;background:repeating-linear-gradient(0deg,#d6d7d4 0 5px,#b7bab8 5px 6px);border-inline:1px solid #aeb2b1;z-index:1}
 .map-walkway-edumura{position:absolute;left:92px;top:113px;width:58px;height:13px;background:repeating-linear-gradient(90deg,#d6d7d4 0 5px,#b7bab8 5px 6px);border-block:1px solid #aeb2b1;z-index:1}.map-walkway-edumura:after{content:"";position:absolute;right:0;bottom:0;width:8px;height:55px;background:repeating-linear-gradient(0deg,#d6d7d4 0 5px,#b7bab8 5px 6px);border-inline:1px solid #aeb2b1}
 .map-walkway-lawson{position:absolute;left:13px;top:96px;width:45px;height:8px;border-radius:999px;background:#d6d7d4;transform:rotate(12deg);transform-origin:left center;z-index:1}.map-walkway-lawson:after{content:"";position:absolute;left:42px;top:3px;width:39px;height:8px;border-radius:999px;background:#d6d7d4;transform:rotate(7deg);transform-origin:left center}
